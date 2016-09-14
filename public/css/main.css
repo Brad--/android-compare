@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+h1 {
+	font-family: Pacifico;
+	font-size: 300%;
+	text-align: center;
+}
+
+button {
+	font-family: Raleway;
+}
+
+li a {
+	font-family: Raleway;
+}
+
+.compare-wrap {
+	text-align: center;
+	padding: 2% 5%;
+}
+
+.dropdown-menu{
+	display: parent;
+}
+

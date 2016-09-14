@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Android Compare</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body ng-app="CompareApp">
+    <h1>Android Compare</h1>
+    <div ng-controller="CompareCtrl as comp" class="compare-wrap">
+        <div class="dropdown">
+            <button class="btn btn-lg dropdown-toggle" type="button" data-toggle="dropdown">Select Phone<span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li ng-repeat="name in comp.phoneNames"><a href="#">{{name}}</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</html>
